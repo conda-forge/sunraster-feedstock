@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ requirements:
 test:
   requires:
     - pytest-astropy
-  
+
   imports:
     - sunraster
     - sunraster.tests
