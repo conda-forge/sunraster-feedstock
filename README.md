@@ -5,11 +5,13 @@ Home: http://sunpy.org
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sunraster-feedstock/blob/master/LICENSE.txt)
 
 Summary: A package providing instrument-agnostic data classes for manipulating solar spectrogram data.
 
+Development: https://github.com/sunpy/sunraster
 
+Documentation: https://sunraster.readthedocs.io/
 
 Current build status
 ====================
