@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - setuptools_scm
   run:
     - python >=3.7
-    - matplotlib >=3.3.0
+    - matplotlib-base >=3.3.0
     - ndcube >=2.0.1
     - sunpy >=3.0.0
     - mpl_animators
