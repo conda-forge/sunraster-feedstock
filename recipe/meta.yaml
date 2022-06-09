@@ -1,6 +1,6 @@
 {% set name = "sunraster" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "a64a12fa4074da86373f5f5319f0814843c532e106fdf0f44ccdb47d3f1b7bc7" %}
+{% set version = "0.4.2" %}
+{% set sha256 = "2d194e9f14c5cb740b89fddb19843b47ab9a8383c2751f0c9c1bcc32cfb34697" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
