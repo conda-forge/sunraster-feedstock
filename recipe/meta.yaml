@@ -1,6 +1,6 @@
 {% set name = "sunraster" %}
-{% set version = "0.4.2" %}
-{% set sha256 = "2d194e9f14c5cb740b89fddb19843b47ab9a8383c2751f0c9c1bcc32cfb34697" %}
+{% set version = "0.4.3" %}
+{% set sha256 = "e191a64522fda6bc0ac67ef8501e981a0d2acc272de92dd9b0c4809dfbc32104" %}
 
 package:
   name: {{ name|lower }}
@@ -27,6 +27,8 @@ requirements:
     - ndcube >=2.0.1
     - sunpy >=3.0.0
     - mpl_animators
+    - astropy
+    - numpy
 
 test:
   requires:
@@ -52,3 +54,4 @@ extra:
   recipe-maintainers:
     - DanRyanIrish
     - Cadair
+    - nabobalis
