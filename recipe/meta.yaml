@@ -27,6 +27,8 @@ requirements:
     - ndcube >=2.0.1
     - sunpy >=3.0.0
     - mpl_animators
+    - astropy
+    - numpy
 
 test:
   requires:
@@ -52,3 +54,4 @@ extra:
   recipe-maintainers:
     - DanRyanIrish
     - Cadair
+    - nabobalis
