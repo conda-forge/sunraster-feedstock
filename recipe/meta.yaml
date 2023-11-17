@@ -1,6 +1,6 @@
 {% set name = "sunraster" %}
-{% set version = "0.4.3" %}
-{% set sha256 = "e191a64522fda6bc0ac67ef8501e981a0d2acc272de92dd9b0c4809dfbc32104" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "b9971b5f7c9568123bc60e5aea406ad038435582806cde0d086927fb3e659e3a" %}
 
 package:
   name: {{ name|lower }}
@@ -18,14 +18,14 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.9
     - pip
     - setuptools_scm
   run:
-    - python >=3.7
+    - python >=3.9
     - matplotlib-base >=3.3.0
-    - ndcube >=2.0.1
-    - sunpy >=3.0.0
+    - ndcube >=2.1.2
+    - sunpy >=5.0.0
     - mpl_animators
     - astropy
     - numpy
@@ -55,3 +55,4 @@ extra:
     - DanRyanIrish
     - Cadair
     - nabobalis
+    - wtbarnes

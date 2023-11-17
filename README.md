@@ -1,11 +1,11 @@
-About sunraster
-===============
+About sunraster-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sunraster-feedstock/blob/main/LICENSE.txt)
 
 Home: http://sunpy.org
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sunraster-feedstock/blob/main/LICENSE.txt)
 
 Summary: A package providing instrument-agnostic data classes for manipulating solar spectrogram data.
 
@@ -99,7 +99,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -149,4 +149,6 @@ Feedstock Maintainers
 
 * [@Cadair](https://github.com/Cadair/)
 * [@DanRyanIrish](https://github.com/DanRyanIrish/)
+* [@nabobalis](https://github.com/nabobalis/)
+* [@wtbarnes](https://github.com/wtbarnes/)
 
