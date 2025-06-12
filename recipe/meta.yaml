@@ -26,7 +26,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - matplotlib-base >=3.3.0
-    - ndcube >=2.3.2
+    - ndcube >=2.3.0
     - sunpy >=6.0.0
     - mpl_animators
     - astropy-base >=5.0.6,!=5.1.0
