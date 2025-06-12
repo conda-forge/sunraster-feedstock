@@ -29,8 +29,8 @@ requirements:
     - ndcube >=2.3.2
     - sunpy >=6.0.0
     - mpl_animators
-    - astropy-base>=5.0.6,!=5.1.0
-    - numpy>=1.25.0
+    - astropy-base >=5.0.6,!=5.1.0
+    - numpy >=1.25.0
 
 test:
   requires:
