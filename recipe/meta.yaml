@@ -1,6 +1,6 @@
 {% set name = "sunraster" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "f9890cabe2ebebfd0ee5f7c6206d6e6515728102c09b9e4ac5a1128b4a3a3c28" %}
+{% set version = "0.6.2" %}
+{% set sha256 = "04662b954d1b7bdcd99c819e7be7aba62a0ffd302ffcb6fb6b2f22107856fd66" %}
 {% set python_min = "3.10" %}
 
 package:
