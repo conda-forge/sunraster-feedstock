@@ -1,7 +1,7 @@
 {% set name = "sunraster" %}
 {% set version = "0.7.0" %}
 {% set sha256 = "7f32ab0478ebe1fc5ea2c440e4546f8c62417c125eca32343143e454b59e2486" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -25,12 +25,12 @@ requirements:
     - setuptools_scm
   run:
     - python >={{ python_min }}
-    - matplotlib-base >=3.3.0
+    - matplotlib-base >=3.5.0
     - ndcube >=2.3.0
-    - sunpy >=6.0.0
+    - sunpy >=7.0.0
     - mpl_animators
-    - astropy-base >=5.0.6,!=5.1.0
-    - numpy >=1.25.0
+    - astropy-base >=6.1.0
+    - numpy >=1.26.0
 
 test:
   requires:
